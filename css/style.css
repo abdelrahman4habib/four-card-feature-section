@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 1440px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: hsl(0, 0%, 98%);
+}
+.main-head {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+  color: hsl(234, 12%, 34%);
+}
+.secand-head {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: hsl(234, 12%, 34%);
+}
+.main-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: hsl(229, 6%, 66%);
+  margin-top: 20px;
+  text-align: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  grid-template-rows: 700px;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.card img {
+  justify-self: end;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.card {
+  display: grid;
+  border: 2px solid hsl(0, 0%, 98%);
+  border-radius: 8px;
+  padding: 20px;
+  width: 325px;
+  height: 200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  margin-bottom: 40px;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card h3 {
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 10px;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.card p {
+  font-size: 15px;
+  margin-bottom: 40px;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: hsl(229, 6%, 66%);
+}
+.color-supervisor {
+  border-top: 3px solid hsl(180, 62%, 55%);
+  border-radius: 5px;
+}
+.color-team-builder {
+  border-top: 3px solid hsl(0, 78%, 62%);
+  border-radius: 5px;
+}
+.color-karma {
+  border-top: 3px solid hsl(34, 97%, 64%);
+  border-radius: 5px;
+}
+.color-calculator {
+  border-top: 3px solid hsl(212, 86%, 64%);
+  border-radius: 5px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  color: #333;
+  border-top: 2px solid #ccc;
+}
